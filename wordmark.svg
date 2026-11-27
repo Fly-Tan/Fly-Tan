@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="FLY TAN animated wordmark">
+  <title>FLY TAN</title>
+
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#a371f7;#3fb950;#58a6ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#a371f7">
+        <animate attributeName="stop-color" values="#a371f7;#3fb950;#58a6ff;#a371f7" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#3fb950">
+        <animate attributeName="stop-color" values="#3fb950;#58a6ff;#a371f7;#3fb950" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .word {
+      font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      font-size: 92px;
+      font-weight: 800;
+      letter-spacing: 8px;
+      fill: url(#g1);
+    }
+    .sub {
+      font-family: "SF Mono", "Consolas", "Courier New", monospace;
+      font-size: 15px;
+      letter-spacing: 5px;
+      fill: #8b949e;
+    }
+    .rule { stroke: #30363d; stroke-width: 1; }
+  </style>
+
+  <!-- animated underline sweep -->
+  <line class="rule" x1="40" y1="186" x2="720" y2="186">
+    <animate attributeName="x2" values="40;720" dur="2.2s" fill="freeze"/>
+  </line>
+
+  <!-- letters rise + glow in sequence -->
+  <g filter="url(#soft)">
+    <text class="word" x="60" y="148" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.05s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" dur="0.7s" begin="0.05s" fill="freeze"/>
+      F
+    </text>
+    <text class="word" x="140" y="148" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.20s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" dur="0.7s" begin="0.20s" fill="freeze"/>
+      L
+    </text>
+    <text class="word" x="212" y="148" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.35s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" dur="0.7s" begin="0.35s" fill="freeze"/>
+      Y
+    </text>
+    <text class="word" x="330" y="148" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.60s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" dur="0.7s" begin="0.60s" fill="freeze"/>
+      T
+    </text>
+    <text class="word" x="412" y="148" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.75s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" dur="0.7s" begin="0.75s" fill="freeze"/>
+      A
+    </text>
+    <text class="word" x="496" y="148" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.90s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 26" to="0 0" dur="0.7s" begin="0.90s" fill="freeze"/>
+      N
+    </text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="580" y="82" width="5" height="66" fill="#3fb950">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.15s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- pulsing subtitle -->
+  <text class="sub" x="60" y="216" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.5s" fill="freeze"/>
+    I LIKE HACKATHONS
+  </text>
+</svg>
