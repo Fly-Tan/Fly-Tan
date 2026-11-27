@@ -17,10 +17,6 @@
 <br>
 
 <p align="center">
-  <img src="./ctf-marquee.svg" width="100%" alt="I like hackathons">
-</p>
-
-<p align="center">
   <img src="./ctf-terminal.svg" width="100%" alt="CTF terminal">
 </p>
 
