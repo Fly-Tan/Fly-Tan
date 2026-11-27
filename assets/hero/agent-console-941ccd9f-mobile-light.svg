@@ -8,11 +8,6 @@
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0891B2" stop-opacity="0"/><stop offset="0.5" stop-color="#0891B2" stop-opacity="0.46"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/></linearGradient>
   <radialGradient id="portrait-halo"><stop offset="0" stop-color="#0891B2" stop-opacity="0.05"/><stop offset="0.48" stop-color="#2563EB" stop-opacity="0.02"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/></radialGradient>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#0891B2" opacity="0.052"/></pattern>
-  <linearGradient id="wm-grad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00ff88"><animate attributeName="stop-color" values="#00ff88;#38bdf8;#a855f7;#00ff88" dur="6s" repeatCount="indefinite"/></stop><stop offset="50%" stop-color="#38bdf8"><animate attributeName="stop-color" values="#38bdf8;#a855f7;#00ff88;#38bdf8" dur="6s" repeatCount="indefinite"/></stop><stop offset="100%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#00ff88;#38bdf8;#a855f7" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
-  <linearGradient id="wm-scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ff88" stop-opacity="0"/><stop offset="45%" stop-color="#00ff88" stop-opacity="0.28"/><stop offset="55%" stop-color="#00ff88" stop-opacity="0.28"/><stop offset="100%" stop-color="#00ff88" stop-opacity="0"/></linearGradient>
-  <pattern id="wm-grid" width="23" height="23" patternUnits="userSpaceOnUse"><path d="M 23 0 H 0 V 23" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.09"/></pattern>
-  <clipPath id="wm-box-clip"><rect x="0" y="0" width="460" height="200" rx="8"/></clipPath>
-  <filter id="wm-neon" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="1.6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="#2563EB" stroke-width="0.65" opacity="0.085"/><circle cx="0" cy="0" r="1.2" fill="#0891B2" opacity="0.13"/></pattern>
   <clipPath id="portrait-clip"><rect x="58" y="122" width="604" height="312" rx="12"/></clipPath>
   <mask id="portrait-reveal"><rect x="58" y="122" width="604" height="0" rx="12" fill="white"><animate attributeName="height" from="0" to="312" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
@@ -42,8 +37,6 @@
     .system-head { font-family: 'Courier New', Consolas, monospace; font-size: 15px; font-weight: 700; }
     .system-section, .system-footer, .system-row { font-family: 'Courier New', Consolas, monospace; font-size: 13px; }
     .system-section, .system-key { font-weight: 700; }
-    .wm-mono { font-family: 'Courier New', Consolas, monospace; }
-.wm-word { font-family: 'Courier New', Consolas, monospace; font-size: 46px; font-weight: 700; letter-spacing: 3px; fill: url(#wm-grad); }
 text, tspan { white-space: pre; }
   </style>
 </defs>
