@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 64" width="460" height="64" role="img" aria-label="Hackathons moving banner">
+  <title>HACKATHONS</title>
+
+  <defs>
+    <linearGradient id="tw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <clipPath id="cb"><rect width="460" height="64" rx="6"/></clipPath>
+  </defs>
+
+  <style>
+    .big { font-family:"Segoe UI",Arial,sans-serif; font-size:34px; font-weight:800; letter-spacing:6px; fill:url(#tw); }
+    .tag { font-family:"SF Mono",Consolas,monospace; font-size:11px; letter-spacing:3px; fill:#00ff88; }
+  </style>
+
+  <g clip-path="url(#cb)">
+    <rect width="460" height="64" fill="#0a0f0d"/>
+
+    <!-- diagonal hazard stripes scrolling -->
+    <g opacity="0.16" stroke="#00ff88" stroke-width="7">
+      <line x1="-40" y1="64" x2="0" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="0" y1="64" x2="40" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="40" y1="64" x2="80" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="80" y1="64" x2="120" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="120" y1="64" x2="160" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="160" y1="64" x2="200" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="200" y1="64" x2="240" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="240" y1="64" x2="280" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="280" y1="64" x2="320" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="320" y1="64" x2="360" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="360" y1="64" x2="400" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="400" y1="64" x2="440" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="440" y1="64" x2="480" y2="0"><animateTransform attributeName="transform" type="translate" from="0 0" to="40 0" dur="1.4s" repeatCount="indefinite"/></line>
+    </g>
+
+    <!-- sliding marquee: I LIKE HACKATHONS -->
+    <g class="big">
+      <text x="0" y="44">I LIKE HACKATHONS
+        <animateTransform attributeName="transform" type="translate" from="470 0" to="-420 0" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="0" y="44">I LIKE HACKATHONS
+        <animateTransform attributeName="transform" type="translate" from="1020 0" to="180 0" dur="7s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- framing ticks -->
+    <g stroke="#00ff88" stroke-width="2">
+      <line x1="0" y1="2" x2="460" y2="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></line>
+      <line x1="0" y1="62" x2="460" y2="62"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></line>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="459" height="63" rx="6" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.5"/>
+</svg>
