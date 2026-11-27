@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="./contributions-neon.svg" width="100%" alt="Fly Tan contribution heatmap">
+  <img src="./contributions-0b24cadc.svg" width="100%" alt="Fly Tan contribution heatmap">
 </p>
 
 
