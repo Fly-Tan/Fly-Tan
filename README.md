@@ -1,8 +1,18 @@
 <div align="center">
 
-<img src="./wordmark.svg" width="620" alt="FLY TAN">
+<img src="./ctf-wordmark.svg" width="820" alt="FLY TAN">
 
-<img src="./ascii-banner.svg" width="420" alt="FLY TAN ascii">
+<br>
+
+<img src="./ctf-marquee.svg" width="460" alt="I like hackathons">
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="./ctf-terminal.svg" width="460" alt="CTF terminal">
 
 </div>
 
@@ -11,9 +21,6 @@
 <div align="center">
 
 **Student developer from Malaysia. I like hackathons.**
-
-I learn by shipping — most of what's here was built in 24–48 hours
-with a team, a deadline, and not enough sleep.
 
 </div>
 
@@ -56,6 +63,6 @@ with a team, a deadline, and not enough sleep.
 
 <div align="center">
 
-`Python` `JavaScript` `HTML/CSS` `C++`
+`Python` `JavaScript` `HTML/CSS` `C++` `CTF`
 
 </div>
