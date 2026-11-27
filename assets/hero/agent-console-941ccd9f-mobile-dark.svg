@@ -6,8 +6,13 @@
   <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#7C3AED;#38BDF8;#22D3EE" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#38BDF8;#22D3EE;#7C3AED" dur="9s" repeatCount="indefinite"/></stop></linearGradient>
   <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset="0.48" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/></linearGradient>
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.46"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></linearGradient>
-  <radialGradient id="portrait-halo"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.12"/><stop offset="0.48" stop-color="#38BDF8" stop-opacity="0.055"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="portrait-halo"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.05"/><stop offset="0.48" stop-color="#38BDF8" stop-opacity="0.02"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#22D3EE" opacity="0.052"/></pattern>
+  <linearGradient id="wm-grad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00ff88"><animate attributeName="stop-color" values="#00ff88;#38bdf8;#a855f7;#00ff88" dur="6s" repeatCount="indefinite"/></stop><stop offset="50%" stop-color="#38bdf8"><animate attributeName="stop-color" values="#38bdf8;#a855f7;#00ff88;#38bdf8" dur="6s" repeatCount="indefinite"/></stop><stop offset="100%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#00ff88;#38bdf8;#a855f7" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
+  <linearGradient id="wm-scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ff88" stop-opacity="0"/><stop offset="45%" stop-color="#00ff88" stop-opacity="0.28"/><stop offset="55%" stop-color="#00ff88" stop-opacity="0.28"/><stop offset="100%" stop-color="#00ff88" stop-opacity="0"/></linearGradient>
+  <pattern id="wm-grid" width="23" height="23" patternUnits="userSpaceOnUse"><path d="M 23 0 H 0 V 23" fill="none" stroke="#00ff88" stroke-width="0.5" opacity="0.09"/></pattern>
+  <clipPath id="wm-box-clip"><rect x="0" y="0" width="460" height="200" rx="8"/></clipPath>
+  <filter id="wm-neon" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="1.6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="#38BDF8" stroke-width="0.65" opacity="0.085"/><circle cx="0" cy="0" r="1.2" fill="#22D3EE" opacity="0.13"/></pattern>
   <clipPath id="portrait-clip"><rect x="58" y="122" width="604" height="312" rx="12"/></clipPath>
   <mask id="portrait-reveal"><rect x="58" y="122" width="604" height="0" rx="12" fill="white"><animate attributeName="height" from="0" to="312" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
@@ -37,7 +42,9 @@
     .system-head { font-family: 'Courier New', Consolas, monospace; font-size: 15px; font-weight: 700; }
     .system-section, .system-footer, .system-row { font-family: 'Courier New', Consolas, monospace; font-size: 13px; }
     .system-section, .system-key { font-weight: 700; }
-    text, tspan { white-space: pre; }
+    .wm-mono { font-family: 'Courier New', Consolas, monospace; }
+.wm-word { font-family: 'Courier New', Consolas, monospace; font-size: 46px; font-weight: 700; letter-spacing: 3px; fill: url(#wm-grad); }
+text, tspan { white-space: pre; }
   </style>
 </defs>
 <rect width="720" height="1080" rx="22" fill="url(#background)"/>
@@ -114,6 +121,7 @@
 <tspan x="180" y="422.70" xml:space="preserve">+%#################%%%%%*++++++=+*######%#################%%#*######%%%%#%%#@%#%@@@#</tspan>
 <tspan x="180" y="428.40" xml:space="preserve">+%######%%%%%%%%#%@%%%%@%%@%@%*+**###%%%%%@%%#*#############**##%%%%%%%%@#%%#%%##%@%</tspan>
 <tspan x="180" y="434.10" xml:space="preserve">-@####%%%%%@@%%##@%%#%%%%%%#%%%%#######%%%%@@%%##########%%##*##%%%%%%%%@@%%######@+</tspan></text></g>
+
 <g clip-path="url(#system-line-0)"><text x="72" y="520" class="system-head"><tspan fill="#7C3AED">@Fly-Tan</tspan><tspan fill="#64748B"> ------------------------------------------</tspan></text></g>
 <g clip-path="url(#system-line-1)"><text x="72" y="541" class="system-row"><tspan fill="#64748B">. </tspan><tspan class="system-key" fill="#22D3EE">Subject</tspan><tspan fill="#64748B">: ....... </tspan><tspan fill="#E5E7EB">Fly Tan</tspan></text></g>
 <g clip-path="url(#system-line-2)"><text x="72" y="562" class="system-row"><tspan fill="#64748B">. </tspan><tspan class="system-key" fill="#22D3EE">Role</tspan><tspan fill="#64748B">: .......... </tspan><tspan fill="#E5E7EB">Student Developer · CTF &amp; Hackathons</tspan></text></g>
