@@ -20,6 +20,10 @@
   <img src="./ctf-terminal.svg" width="100%" alt="CTF terminal">
 </p>
 
+<p align="center">
+  <img src="./contributions-neon.svg" width="100%" alt="Fly Tan contribution heatmap">
+</p>
+
 
 <br>
 
