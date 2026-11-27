@@ -20,10 +20,6 @@
   <img src="./ctf-terminal.svg" width="460" alt="CTF terminal">
 </p>
 
-<p align="center">
-  <img src="./ctf-wordmark.svg" width="520" alt="FLY TAN">
-</p>
-
 
 <br>
 
