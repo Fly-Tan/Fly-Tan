@@ -1,12 +1,12 @@
 <!-- GitHub Profile Agent Console hero + custom CTF layer -->
 <p align="center">
   <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-b2e41ba0-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-b2e41ba0-mobile-light.svg">
-    <source media="(max-width: 760px) and (prefers-color-scheme: light)" srcset="./assets/hero/agent-console-b2e41ba0-mobile-light.svg">
-    <source media="(min-width: 761px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-b2e41ba0-dark.svg">
-    <source media="(min-width: 761px) and (prefers-color-scheme: light)" srcset="./assets/hero/agent-console-b2e41ba0-light.svg">
-    <img src="./assets/hero/agent-console-b2e41ba0-dark.svg" alt="Fly Tan - Student Developer · CTF & Hackathons" width="100%">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-941ccd9f-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-941ccd9f-mobile-light.svg">
+    <source media="(max-width: 760px) and (prefers-color-scheme: light)" srcset="./assets/hero/agent-console-941ccd9f-mobile-light.svg">
+    <source media="(min-width: 761px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-941ccd9f-dark.svg">
+    <source media="(min-width: 761px) and (prefers-color-scheme: light)" srcset="./assets/hero/agent-console-941ccd9f-light.svg">
+    <img src="./assets/hero/agent-console-941ccd9f-dark.svg" alt="Fly Tan - Student Developer · CTF & Hackathons" width="100%">
   </picture>
 </p>
 
@@ -19,6 +19,11 @@
 <p align="center">
   <img src="./ctf-terminal.svg" width="460" alt="CTF terminal">
 </p>
+
+<p align="center">
+  <img src="./ctf-wordmark.svg" width="520" alt="FLY TAN">
+</p>
+
 
 <br>
 
