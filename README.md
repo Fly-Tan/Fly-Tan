@@ -10,6 +10,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <img src="./ctf-wordmark.svg" width="520" alt="FLY TAN">
+</p>
+
 <br>
 
 <p align="center">

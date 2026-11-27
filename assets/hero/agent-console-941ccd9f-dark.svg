@@ -9,8 +9,8 @@
   <radialGradient id="portrait-halo"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.05"/><stop offset="0.48" stop-color="#38BDF8" stop-opacity="0.02"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#22D3EE" opacity="0.052"/></pattern>
   <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="#38BDF8" stroke-width="0.65" opacity="0.085"/><circle cx="0" cy="0" r="1.2" fill="#22D3EE" opacity="0.13"/></pattern>
-  <clipPath id="portrait-clip"><rect x="24" y="82" width="470" height="292" rx="12"/></clipPath>
-  <mask id="portrait-reveal"><rect x="24" y="82" width="470" height="0" rx="12" fill="white"><animate attributeName="height" from="0" to="292" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
+  <clipPath id="portrait-clip"><rect x="24" y="82" width="470" height="438" rx="12"/></clipPath>
+  <mask id="portrait-reveal"><rect x="24" y="82" width="470" height="0" rx="12" fill="white"><animate attributeName="height" from="0" to="438" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
   <clipPath id="system-line-0"><rect x="525" y="66.00" width="0" height="22"><animate attributeName="width" from="0" to="620" dur="0.36s" begin="0.68s" fill="freeze"/></rect></clipPath>
 <clipPath id="system-line-1"><rect x="525" y="87.50" width="0" height="22"><animate attributeName="width" from="0" to="620" dur="0.36s" begin="0.79s" fill="freeze"/></rect></clipPath>
 <clipPath id="system-line-2"><rect x="525" y="109.00" width="0" height="22"><animate attributeName="width" from="0" to="620" dur="0.36s" begin="0.89s" fill="freeze"/></rect></clipPath>
@@ -51,7 +51,7 @@ text, tspan { white-space: pre; }
 <text x="30" y="62" class="panel-title">VISUAL.MAP / PORTRAIT.SIGNAL</text>
 <text x="524" y="62" class="panel-title">SYSTEM.INFO / RESEARCH.BUILDER</text>
 <g clip-path="url(#portrait-clip)" aria-hidden="true">
-  <rect x="24" y="82" width="470" height="292" fill="url(#portrait-grid)"/>
+  <rect x="24" y="82" width="470" height="438" fill="url(#portrait-grid)"/>
   <ellipse cx="268.4" cy="222.2" rx="228.4" ry="91.5" fill="url(#portrait-halo)"/>
   <ellipse cx="268.4" cy="222.2" rx="211.5" ry="84.7" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 14" opacity="0.13"><animateTransform attributeName="transform" type="rotate" from="0 268.4 222.2" to="360 268.4 222.2" dur="42s" repeatCount="indefinite"/></ellipse>
   <ellipse cx="268.4" cy="222.2" rx="169.2" ry="64.4" fill="none" stroke="#7C3AED" stroke-width="1" stroke-dasharray="28 24" opacity="0.1"><animateTransform attributeName="transform" type="rotate" from="360 268.4 222.2" to="0 268.4 222.2" dur="34s" repeatCount="indefinite"/></ellipse>
@@ -60,48 +60,72 @@ text, tspan { white-space: pre; }
   <path d="M 466 170.2 C 428 204.2, 399.5 152.2, 353.0 192.2" fill="none" stroke="#10B981" opacity="0.11"/>
   <g fill="#22D3EE"><circle cx="52" cy="128" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.2;0.58;0.2" dur="5.6s" repeatCount="indefinite"/></circle><circle cx="466" cy="332" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.58;0.2;0.58" dur="6.4s" repeatCount="indefinite"/></circle><circle cx="64" cy="270.2" r="1.7" opacity="0.32"/><circle cx="456" cy="164.2" r="1.7" opacity="0.28"/></g>
 </g>
-<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii"><tspan x="84" y="90.00" xml:space="preserve">                                   ..:-=+*#%@@%%@%#*+=-:.                                   </tspan>
-<tspan x="84" y="96.65" xml:space="preserve">                                .:=*%@@@@@@@@@@@@@@@@@@@%+-:.                               </tspan>
-<tspan x="84" y="103.30" xml:space="preserve">                             .-+%@@@@@@@@@@@@@@@@@@@@@@@@@@@#-.                             </tspan>
-<tspan x="84" y="109.95" xml:space="preserve">                            =@@@@%%@@@%%%#####%%%%%%%@@@@%%%@@@*:                           </tspan>
-<tspan x="84" y="116.60" xml:space="preserve">                           -@@@%%%%%#*++++++++++*******##%@%%%@@@.                          </tspan>
-<tspan x="84" y="123.25" xml:space="preserve">                           -@%%%##*+========+=========++++*#%%%@@:                          </tspan>
-<tspan x="84" y="129.90" xml:space="preserve">                           :@%##++=++++=+=++================*#%@@.                          </tspan>
-<tspan x="84" y="136.55" xml:space="preserve">                           .%@%+++++++*******+====+*****++++=+%@=                           </tspan>
-<tspan x="84" y="143.20" xml:space="preserve">                           =#@%*++=+**+*#*****+==+***#*+++=++*%+                            </tspan>
-<tspan x="84" y="149.85" xml:space="preserve">                          -%+=#*+===+++##**+====-=++#%%***+=+#@=:                           </tspan>
-<tspan x="84" y="156.50" xml:space="preserve">                          :#+***+==--=========---==-========+*=**.                          </tspan>
-<tspan x="84" y="163.15" xml:space="preserve">                           -#+=*+====--=++++**++=*+====-=--=+++*=                           </tspan>
-<tspan x="84" y="169.80" xml:space="preserve">                            =*+#*++======++++*+++++========++=*-.                           </tspan>
-<tspan x="84" y="176.45" xml:space="preserve">                             .:+#+======****+++++++**+-===+#*+-                             </tspan>
-<tspan x="84" y="183.10" xml:space="preserve">                               .**+++=++++++++**+++++===++#=..                              </tspan>
-<tspan x="84" y="189.75" xml:space="preserve">                                .=#+*+*++=========--=++**#-                                 </tspan>
-<tspan x="84" y="196.40" xml:space="preserve">                               ..-*=********######*****#=.                                  </tspan>
-<tspan x="84" y="203.05" xml:space="preserve">                             .=@=.#++++++***######**++=*-:.                                 </tspan>
-<tspan x="84" y="209.70" xml:space="preserve">                         ..:+%@@+ :-+*#*+++**##*+===++*.#@#-..                              </tspan>
-<tspan x="84" y="216.35" xml:space="preserve">                    ..:-+#@@@@#%@+. ..:=+*****++++**+-.=@%@@@*=-..                          </tspan>
-<tspan x="84" y="223.00" xml:space="preserve">              ...:-+#@@@@@%#####%@#:     .-==+++-::.. -@%####@@@@#=::..                     </tspan>
-<tspan x="84" y="229.65" xml:space="preserve">       ..::-=+*%%@@@@%%%%#########@%: .:=+-..-=+=:   :%%#######%@@@@@#*+=--:::...           </tspan>
-<tspan x="84" y="236.30" xml:space="preserve">    :=*#%@@@@@@@%%####%%%##########@+.+@@@=.:::+#%*:.+@########%%@%%%%@@@@@@@@%#*+:         </tspan>
-<tspan x="84" y="242.95" xml:space="preserve">   .@@@@%##############%%###########@*:+#%####%#*+##-@###########%%###########%%@@@+        </tspan>
-<tspan x="84" y="249.60" xml:space="preserve">   -@##################%%%###########@=.=+#%#+##*##:@###########%%%%###############@-       </tspan>
-<tspan x="84" y="256.25" xml:space="preserve">   *@###################%%%###########@-...=**++*#-:@#############%%####*#########*%#.      </tspan>
-<tspan x="84" y="262.90" xml:space="preserve">  -@####%###########%%#*%%############%%.: .=%#*+#:*%############%%####*############@#.     </tspan>
-<tspan x="84" y="269.55" xml:space="preserve"> .#%#####%%%%%######%@%##%#############@*- -@##*+%###*##########%%####**#########%###@-     </tspan>
-<tspan x="84" y="276.20" xml:space="preserve"> :@#######%%%%%%####@@@%################@#.#%*+-*@@###########%%##*##**######*#%####*%+     </tspan>
-<tspan x="84" y="282.85" xml:space="preserve"> -@####%%###%%%@%###%@@%%%###############@+**=+**@##############*####*######*#%######%%.    </tspan>
-<tspan x="84" y="289.50" xml:space="preserve"> -@##########%%@@@###@@@%%%%%#############%*+*##=##################%##%%%####%%#######@+    </tspan>
-<tspan x="84" y="296.15" xml:space="preserve"> +@#############%@@%##@@%%%%%%%%%%############*+*%###########**********++#%%%%#####***#@=   </tspan>
-<tspan x="84" y="302.80" xml:space="preserve">.@%######%%%%%%%##@%%%%@@%%%%####%%#########%#*+#%#######%%%%#***#**#***%%@@%##*#######%@.  </tspan>
-<tspan x="84" y="309.45" xml:space="preserve">-@###########%%%%%#%%%@@@%%%%###%#%%###########+%%##%#%%%%%%%@@@@@@@@@@@@@@%#*#######**#@+  </tspan>
-<tspan x="84" y="316.10" xml:space="preserve">+@###############%%##%@%@@%%%%%####%%%########+#%###%%%%%@%%%%%%%#%@@%%%@%#########*#####@: </tspan>
-<tspan x="84" y="322.75" xml:space="preserve">-@################%%%#%%%@%%#%%%%###%%%######%#%%%#%#%%%#%%%@%%#%@@%%%%%#################@+ </tspan>
-<tspan x="84" y="329.40" xml:space="preserve">:@##################%%%%%%%%%%%%%%%%%%%%%%%%%%@%%%%%%%%%##%@@@%%@@@%@@%##############*###%@.</tspan>
-<tspan x="84" y="336.05" xml:space="preserve">:@##################*##%@@@@@@@@@@@@@%%%%%%%%%%%%%%%%%%%##%%@@%%@@@@@@%########%######**#%@:</tspan>
-<tspan x="84" y="342.70" xml:space="preserve">-@######################%%@%%%##**###%%%#%%#########%############%%%##########%%%@@%#%%%##@+</tspan>
-<tspan x="84" y="349.35" xml:space="preserve">=@#######################*===--=====+%%#########################%%%#*#######%%##%%%@%%@@@@%%</tspan>
-<tspan x="84" y="356.00" xml:space="preserve">=@#########%%%%%%##%%%%%%@%*####*++*####%%%%%%%%##**##############**######%%%%%%#%%%%%##%@@%</tspan>
-<tspan x="84" y="362.65" xml:space="preserve">-@####%%%%%@@@%%%#%%%%#%%%%@@%%@%%###*####%%%%%@%%%############%##**##%%%%%%%%%@%%%#######@*</tspan></text></g>
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii">
+<tspan x="78" y="90.00" xml:space="preserve">                                       .:-=+*%@@%%@%#+=-:.                                      </tspan>
+<tspan x="78" y="96.65" xml:space="preserve">                                    .:=#@@@@@@@@@@@@@@@@@#=:                                    </tspan>
+<tspan x="78" y="103.30" xml:space="preserve">                                  .=%@@@@@%%%@@@@@@@@%%@@@@@*-.                                 </tspan>
+<tspan x="78" y="109.95" xml:space="preserve">                                :+@@@@%#%%@@@@@@@@@@@@@@@%@@@@%-.                               </tspan>
+<tspan x="78" y="116.60" xml:space="preserve">                              :*@@@%%%@@@@@@@%%%%%%@%@@@%%%%%@@@%-                              </tspan>
+<tspan x="78" y="123.25" xml:space="preserve">                             =@@@@%%%@@@%##****##%%#%%%%%%@%%%%%@@*.                            </tspan>
+<tspan x="78" y="129.90" xml:space="preserve">                            .@@@%%#%%%#*+++++++******#*###%@@%%%%@@*                            </tspan>
+<tspan x="78" y="136.55" xml:space="preserve">                            :@@%%%%##++=+====++++==++++++++*#%%%%%@@:                           </tspan>
+<tspan x="78" y="143.20" xml:space="preserve">                            -@%%%#**+=====+==++===========+++*#%%%@@:                           </tspan>
+<tspan x="78" y="149.85" xml:space="preserve">                            :@%##*++++==================++====+#%%@%.                           </tspan>
+<tspan x="78" y="156.50" xml:space="preserve">                            .%@%#+++++++++++++============+++=++#%@+                            </tspan>
+<tspan x="78" y="163.15" xml:space="preserve">                            .*@%*++++++**#####*++===+*####*+++++*%@:                            </tspan>
+<tspan x="78" y="169.80" xml:space="preserve">                            .+@%#+++=+++++++****++++****++*+=+++*@*                             </tspan>
+<tspan x="78" y="176.45" xml:space="preserve">                           .*##%#++=+*##*%@*#**+====+***#++++=++#@:                             </tspan>
+<tspan x="78" y="183.10" xml:space="preserve">                           :@*-*#++===+++##**+===---=+#%@#*##+=*%%+.                            </tspan>
+<tspan x="78" y="189.75" xml:space="preserve">                           :%=#**++==-==================+======+*=#+                            </tspan>
+<tspan x="78" y="196.40" xml:space="preserve">                           .+**+**===-==========---==========-=+*=++.                           </tspan>
+<tspan x="78" y="203.05" xml:space="preserve">                            :#+=**+====-==++*+***++*+==+====--=+*+*-                            </tspan>
+<tspan x="78" y="209.70" xml:space="preserve">                            .++=+*+++=======++****+*#+=+===+==++=+=.                            </tspan>
+<tspan x="78" y="216.35" xml:space="preserve">                             :****+++=====+++++++++=====-===++*==*.                             </tspan>
+<tspan x="78" y="223.00" xml:space="preserve">                              .:-#+======+###******+**#*====++#+*:                              </tspan>
+<tspan x="78" y="229.65" xml:space="preserve">                                .+*+=====++++++***+++***====+*+:.                               </tspan>
+<tspan x="78" y="236.30" xml:space="preserve">                                 :%++++++++===+++*++=====+++**.                                 </tspan>
+<tspan x="78" y="242.95" xml:space="preserve">                                  -%*+++++========-=--==+++*#:                                  </tspan>
+<tspan x="78" y="249.60" xml:space="preserve">                                  .+*******++++***+++=++**#*:                                   </tspan>
+<tspan x="78" y="256.25" xml:space="preserve">                                .--*=+**#**###########**##+.                                    </tspan>
+<tspan x="78" y="262.90" xml:space="preserve">                               .#@:*+==++****########***+=+:                                    </tspan>
+<tspan x="78" y="269.55" xml:space="preserve">                             .-%@#.:**++++++**####*++++==*-%+.                                  </tspan>
+<tspan x="78" y="276.20" xml:space="preserve">                           :-#@@@@: .-*#**+++*****++===+#--@@@=.                                </tspan>
+<tspan x="78" y="282.85" xml:space="preserve">                       .:-*@@@%##@#.  .:=*#*++++++===+*+:.#@#@@%=:.                             </tspan>
+<tspan x="78" y="289.50" xml:space="preserve">                    .:=#@@@%#####%@*.    .:=*##*++***+:. =@####%@@#=.                           </tspan>
+<tspan x="78" y="296.15" xml:space="preserve">                .:-+%@@@@%########%@*.      ::-+++-:.   .%%######%@@@*-:.                       </tspan>
+<tspan x="78" y="302.80" xml:space="preserve">          ..:-=*#@@@@##%%%%#########@=   .-+-. :=+=.    =@########%@@@@@#+--::..                </tspan>
+<tspan x="78" y="309.45" xml:space="preserve">      .:-+*@@@@@@%%####%%%%%#%######%#. -#%%- :-:#%#-  .%%#######%%@@%%%@@@@@@%#+=-:.           </tspan>
+<tspan x="78" y="316.10" xml:space="preserve">    .+%@@@@%%###########%%###%#######@--@@@#-...:=+*%= -@########%%%@%%#####%%%@@@@@@+.         </tspan>
+<tspan x="78" y="322.75" xml:space="preserve">   .#@@%%###############%%###########%%:**@%**##%%#**@-*@#########%%%%%############%%@%:        </tspan>
+<tspan x="78" y="329.40" xml:space="preserve">   .#%##################%%%###########@+.:*@%%*###*+*##%###########%%%%###############@*        </tspan>
+<tspan x="78" y="336.05" xml:space="preserve">   :@###################%%%############@:.==%#*+##*#%-=@###########%%%%################@:       </tspan>
+<tspan x="78" y="342.70" xml:space="preserve">   =@#####%##############%%%###########%* -.:*#*+*+#+ %%#############%%###############*@-       </tspan>
+<tspan x="78" y="349.35" xml:space="preserve">  .#@################%%##%%%%###########@:.: :+##++*-:@#############%%#####*########%##@#.      </tspan>
+<tspan x="78" y="356.00" xml:space="preserve">  :@####%%##%########%%##%%#############%*.: .+#**+#-=@#############%%####*#############@*      </tspan>
+<tspan x="78" y="362.65" xml:space="preserve">  +@######%%#%%######%%%##%%#############@-- :%##*+#**%############%%#####*#########%%%##@:     </tspan>
+<tspan x="78" y="369.30" xml:space="preserve"> .%%########%#%%#####%@%%##%#############%#: +@##*=%%#############%%#*###*#########%#####%:     </tspan>
+<tspan x="78" y="375.95" xml:space="preserve"> :@##%###%%%%%%%#####@@@%%################@+.@#*+=*@%###########%%%#*###**########%%#####@-     </tspan>
+<tspan x="78" y="382.60" xml:space="preserve"> :@###%%%###%%%@%####@@@%%%###############%%-%#++**@%##########%%%######*########%%######@+     </tspan>
+<tspan x="78" y="389.25" xml:space="preserve"> :@#####%%%###%%@%###%@@%%%%%###############%*=****@###########%########*######*#%#######%%.    </tspan>
+<tspan x="78" y="395.90" xml:space="preserve"> :@#######%%%#%%@@%###@@@%%#%%%%#############+**##+*%###########################%%########@-    </tspan>
+<tspan x="78" y="402.55" xml:space="preserve"> -@##########%%%%@@%##%@@%%%###%%#%###########*###=%############%%%%%%%%%@@%#%#%%#########%%.   </tspan>
+<tspan x="78" y="409.20" xml:space="preserve"> +@######%%%######@@%##@@%%%%%%###%%##########%#++#%#########%%#++++++++==-=#%%%%#######*##@=   </tspan>
+<tspan x="78" y="415.85" xml:space="preserve">.@%######%%%%%%%##%@%%%@@@%%%%%%%#%%%#########%****%########%%%%****####%#%@%%@@%#*########@#.  </tspan>
+<tspan x="78" y="422.50" xml:space="preserve">:@##########%%@@@@#%@%%@@@%%%###%%#%%############+#%###%%%#%%%%%@@@@@@@@@@%%@@@%##########*#@:  </tspan>
+<tspan x="78" y="429.15" xml:space="preserve">-@#############%%@@%#%%@%@%%%%###%%%%%###########+%%#%%%%%%%%%%%%%%%%%@@%%%@@@##########***#@+  </tspan>
+<tspan x="78" y="435.80" xml:space="preserve">*@################%%%#@@%@@#%%%%%%##%%%#########+*%###%%%%%%%%%%%%%%%%@@%%%@%#####%###**####%@. </tspan>
+<tspan x="78" y="442.45" xml:space="preserve">+@#####################@%@@@#%%%%%%#%%%%#######%+%%##%%%%%#%%%@%%#%%%@%%%%@%####%############@- </tspan>
+<tspan x="78" y="449.10" xml:space="preserve">:%################%%%%%#%%@%%%%%%%%%%#%%%%%##%#%#%%%#%%%%%##%@@@%%%%@@%%%@%##################@* </tspan>
+<tspan x="78" y="455.75" xml:space="preserve">.%###################%%%%%%#%%%%%%%%%%#%%%%%%%%#%%%%%%%%%%%#%%%%@%%@@@%%@%##############*####@#.</tspan>
+<tspan x="78" y="462.40" xml:space="preserve">:@#####################%%@@@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%%%#%%@@@%@@@@@@@%%%#############**#%%@.</tspan>
+<tspan x="78" y="469.05" xml:space="preserve">:@######################%@@@@@@@@@@@@@@%%%%%%%%#%####%%%%%##%%%%%%%@@@%@%%%%#####%%%%######**%@:</tspan>
+<tspan x="78" y="475.70" xml:space="preserve">-@######################%@@@@%%%#**###%%%%#######################%##%%%%#########%%@@@%##%####@=</tspan>
+<tspan x="78" y="482.35" xml:space="preserve">-@####################%###*+++++======*%%%%%%######################%%%#*##########%%%@@%%@@@%#%#</tspan>
+<tspan x="78" y="489.00" xml:space="preserve">=@#######################%#+=+===++++*#%#########################%%%%#*#######%%%%#%%#@@#%@@@@%#</tspan>
+<tspan x="78" y="495.65" xml:space="preserve">=@##########%%%######%%%%%@%*+**#*+++**##%%%%%%%%####################**######%%%%%%#@@#@@%#%@@@#</tspan>
+<tspan x="78" y="502.30" xml:space="preserve">=@#######%%%%%%%%%##@%%%%%%%%@@%@@#****###%%%%%%@@%##############%###**##%%%%%%%%%%@#%%#%%%##%@%</tspan>
+<tspan x="78" y="508.95" xml:space="preserve">-@####%%%%%%%@@%%%#@%%%##%%%%%%#%%%%%#########%%%%%@%%###%%#######%%##*##%%%%%%%%%%%@%########@+</tspan>
+</text></g>
 
 <g clip-path="url(#system-line-0)"><text x="528" y="82" class="system-head"><tspan fill="#7C3AED">@Fly-Tan</tspan><tspan fill="#64748B"> ------------------------------------------</tspan></text></g>
 <g clip-path="url(#system-line-1)"><text x="528" y="103.5" class="system-row"><tspan fill="#64748B">. </tspan><tspan class="system-key" fill="#22D3EE">Subject</tspan><tspan fill="#64748B">: ....... </tspan><tspan fill="#E5E7EB">Fly Tan</tspan></text></g>
